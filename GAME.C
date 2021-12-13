@@ -38,13 +38,13 @@ void main()
   cprintf("*");
   }
   //logic for object
-  else if((i==12+up&&j==1+count)||(i==12+up&&j==2+count)||(i==12+up&&j==3+count)||(i==12+up&&j==5+count)||(i==12+up&&j==6+count)||(i==12+up&&j==7+count)||(i==11+up&&j==3+count)||(i==11+up&&j==4+count)||(i==11+up&&j==5+count)||  (i==10+up&&j==1+count)||(i==10+up&&j==2+count)||(i==10+up&&j==3+count)||(i==10+up&&j==4+count)||(i==10+up&&j==5+count)||(i==10+up&&j==6+count)||(i==10+up&&j==7+count)||  (i==9+up&&j==3+count)||(i==9+up&&j==4+count)||(i==9+up&&j==5+count))
+  else if((i==12+up&&j==1+count)||(i==12+up&&j==2+count)||(i==12+up&&j==3+count)||(i==12+up)||(i==12+up&&j==6+count)||(i==12+up&&j==7+count)||(i==11+up&&j==3+count)||(i==11+up&&j==4+count)||(i==11+up&&j==5+count)||  (i==10+up&&j==1+count)||(i==10+up&&j==2+count)||(i==10+up&&j==3+count)||(i==10+up&&j==4+count)||(i==10+up&&j==5+count)||(i==10+up&&j==6+count)||(i==10+up&&j==7+count)||  (i==9+up&&j==3+count)||(i==9+up&&j==4+count)||(i==9+up&&j==5+count))
   {
   textcolor(12);
   cprintf(".");
   }
 
-  else if((i==12&&j==50)||(i==11&&j==50)||(i==10&&j==50))
+  else if((i==12&&j==50)||(i==10&&j==50))
   {
   textcolor(5);
   cprintf("*");
@@ -98,13 +98,13 @@ void main()
   }
 
   //logic for object
-  else if((i==12+up&&j==1+count)||(i==12+up&&j==2+count)||(i==12+up&&j==3+count)||(i==12+up&&j==5+count)||(i==12+up&&j==6+count)||(i==12+up&&j==7+count)||(i==11+up&&j==3+count)||(i==11+up&&j==4+count)||(i==11+up&&j==5+count)||  (i==10+up&&j==1+count)||(i==10+up&&j==2+count)||(i==10+up&&j==3+count)||(i==10+up&&j==4+count)||(i==10+up&&j==5+count)||(i==10+up&&j==6+count)||(i==10+up&&j==7+count)||  (i==9+up&&j==3+count)||(i==9+up&&j==4+count)||(i==9+up&&j==5+count))
+  else if((i==12+up)||(i==12+up&&j==2+count)||(i==12+up&&j==3+count)||(i==12+up&&j==5+count)||(i==12+up&&j==6+count)||(i==12+up&&j==7+count)||(i==11+up&&j==3+count)||(i==11+up&&j==4+count)||(i==11+up&&j==5+count)||  (i==10+up&&j==1+count)||(i==10+up&&j==2+count)||(i==10+up&&j==3+count)||(i==10+up&&j==4+count)||(i==10+up&&j==5+count)||(i==10+up&&j==6+count)||(i==10+up&&j==7+count)||  (i==9+up&&j==3+count)||(i==9+up&&j==4+count)||(i==9+up&&j==5+count))
   {
   textcolor(12);
   cprintf(".");
   }
 
-  else if((i==12&&j==50)||(i==11&&j==50)||(i==10&&j==50))
+  else if((i==12&&j==50)||(i==10&&j==50))
   {
   textcolor(5);
   cprintf("*");
